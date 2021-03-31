@@ -8,20 +8,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
 }
 
 .container{
     margin: 0;
     width: 100%;
     min-height: 100vh;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.8);
     display:flex;
 }
 
 .wrapper{
     width: 75%;
     margin:0 auto;
-    background: rgb(27,27,50,.8);
+    /* background: rgb(27,27,50,.8); */
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -29,11 +30,77 @@ body{
 }
 .header {
     text-align: center;
-
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 .header h1 {
-    font-size: 3em;
+    font-size: 1.5em;
 }
 .header p {
-    font-size: 2em;
+    font-size: 1em;
+}
+
+.form{
+    background: rgba(15, 15, 34, 0.8);
+    border-radius: 5px;
+    padding:2em 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.form label{
+    margin:1em 0 0.5em;
+}
+
+.form input, .form select{
+    height: 2em;
+    padding: 5px 10px;
+    font-size: 0.8em;
+}
+ h3{
+     margin-bottom: 10px;
+ }
+.radios{
+    display: flex;
+    align-items: center;
+
+}
+.radios input{
+    margin:0;
+}
+
+.radios label{
+    margin:0;
+    margin-left:0.5rem;
+}
+
+.checkboxes{
+    display: flex;
+    align-items: center;
+
+}
+.checkboxes input{
+    margin:0;
+}
+
+.checkboxes label{
+    margin:0;
+    margin-left:0.5rem;
+}
+
+textarea{
+    font-size: inherit;
+    padding: 1em;
+}
+
+input[type="submit"]{
+    background: rgb(6, 211, 143);
+    color:#fff;
+    margin:2em 0;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    padding: 0.8em ;
+    height: 2.5em;
+    cursor: pointer;
 }
