@@ -11,10 +11,15 @@
 
    <h1 id="title"> Microverse Survey Form</h1>
    <p id="description">Thank you for taking the time to help us improve the platform</p>
-   <form action="" id="survey form"> 
+   <form action="" id="survey-form"> 
+     <label for="name" id="name-label">Name</label>
      <input type="text" name="" id="name" required placeholder="Firt Name">
-     <input type="email" id="email">
-     <input type="number" name="number" id="number" required placeholder="0202020222">
+     
+     <label for="email" id="email-label">Email</label>
+     <input type="email" id="email" name="email" required>
+     
+     <label for="number" id="number-label">Age</label>
+     <input type="number" name="number" id="number" required placeholder="0202020222" min="10" max="100">
    </form>
 
     <script  src="js/index.js"></script>
