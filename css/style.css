@@ -104,3 +104,13 @@ input[type="submit"]{
     height: 2.5em;
     cursor: pointer;
 }
+@media  (max-width: 480px) {
+    .wrapper {
+        width: 100%;
+     
+     
+    }
+    body{
+        color: red;
+    }
+  }
