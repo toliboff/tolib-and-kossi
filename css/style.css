@@ -98,6 +98,7 @@ body{
 textarea{
     font-size: inherit;
     padding: 1em;
+    resize:none;
 }
 
 input[type="submit"]{
