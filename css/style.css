@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image: url("/coders.jpg");
+    background-image: url("https://toliboff.github.io/tolib-and-kossi/coders.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
