@@ -104,7 +104,7 @@ input[type="submit"]{
     height: 2.5em;
     cursor: pointer;
 }
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 640px) {
     .wrapper {
         width: 100%;
         
